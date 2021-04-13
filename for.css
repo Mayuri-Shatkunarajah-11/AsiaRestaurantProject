@@ -1,0 +1,126 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    margin-top: 15px;
+    font-family:'opens sans' sans-serif;
+}
+header{
+    height:600px;
+}
+.wrapper{
+    width:90%;
+    margin:0 auto;
+}
+
+header{
+    background-image:url('../img/myd2.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    margin-top: 2px;
+    border-radius:10px;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: space-between;
+
+
+}
+
+
+.left{
+    flex-basis: 35%;
+    text-align: right;
+    padding-right: 0.5rem;
+}
+
+.right{
+    flex-basis: 60%;
+    margin-top: 1.75rem;
+    padding-left: 0.5rem;
+    
+}
+.left img{
+    border-radius:100%;
+    border:2px solid black;
+}
+.right h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5em;
+   
+    color:rgb(182, 17, 17);
+    margin:0;
+
+}
+.right p{
+    margin-top:-0.5rem;
+    font-style: italic;
+    text-align: center;
+    margin-left:2px;
+    font-size:25px;
+    font-weight: bold;
+    
+}
+.right button{
+    margin-top: 200px;
+    margin-left:400px;
+    font-size: 20px;
+    background-color: rgb(236, 22, 86);
+    color:white;
+    padding:10px 20px;
+    border-radius: 20px;
+}
+.right button:hover{
+    background-color:rgb(11, 169, 197);
+    color:black;
+}
+nav ul{
+text-align: center;
+margin:0;
+padding:0;
+list-style-type: none;
+
+}
+nav li{
+    display:inline-block;
+
+}
+
+nav a{
+     display:block;
+    text-decoration: none;
+    padding:0.5rem 6rem;
+    background-color: rgb(49, 46, 42);
+    color: whitesmoke;
+    font-size: 20px;
+    border-radius: 10px;
+}
+nav a:hover{
+    background-color: rgb(209, 9, 59);
+    
+    color:white;
+
+}
+footer{
+    background-color: rgb(153, 24, 15);
+    border-radius: 10px;
+    border:2px solid black;
+    color:white;
+    text-align: center;
+    padding: 1rem 0 3rem 0;
+
+}
+footer ul{
+    
+    display:inline-block;
+   margin:0 auto;
+
+}
+footer li{
+    list-style-type: none;
+
+}
+footer img{
+    border-radius: 100px;
+    width:30px;
+}
